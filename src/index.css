@@ -85,7 +85,7 @@ code {
   margin-right: 10px;
   margin-left: 0px;
   width: 21%;
-  height: 1200px;
+  height: 2500px !important;
   background-color: rgb(78,115,223);
   color: white;
 }
@@ -1546,7 +1546,7 @@ table tr:nth-child(even){
   .login, .register{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 75%;
     margin: 10px auto;
     gap: 20px;
     padding-bottom: 15px;
@@ -1606,6 +1606,9 @@ table tr:nth-child(even){
   }
   .login input{
     padding: 8px 10px;
+  }
+  .log-inp{
+    width: 100%;
   }
   .name{
     gap: 5px;

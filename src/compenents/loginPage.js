@@ -145,8 +145,8 @@ function Login(){
             <div className="login-div">
             <h4 className="login-tile">Welcome Back!</h4>
             <div className="login">
-                <input type="text" placeholder="Enter Email Address.."/>
-                <input type="password" placeholder="password"/>
+                <input type="text" className="log-inp" placeholder="Enter Email Address.."/>
+                <input type="password" className="log-inp" placeholder="password"/>
                 <div><input type="checkbox" />Remember Me</div>
                 <button className="login-btn" onClick={()=>navigate("/")}>Login</button>
             </div>
