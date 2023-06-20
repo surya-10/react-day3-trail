@@ -1607,6 +1607,14 @@ table tr:nth-child(even){
   .login input{
     padding: 8px 10px;
   }
+  .name{
+    gap: 5px;
+    margin-top: 7px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+    font-size: 12px;
+  }
 
   
 }
@@ -1646,7 +1654,7 @@ table tr:nth-child(even){
   }
   .name{
     gap: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 5px;
